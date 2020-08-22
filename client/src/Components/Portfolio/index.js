@@ -1,7 +1,10 @@
 import React from "react";
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
+
 const Portfolio = () => {
+    return (
+<>
 <Jumbotron>
   <h1>Hello, world!</h1>
   <p>
@@ -9,10 +12,11 @@ const Portfolio = () => {
     extra attention to featured content or information.
   </p>
   <p>
-    <Button variant="primary">Learn more</Button>
+   LUKERFTGHK
   </p>
-</Jumbotron>
-
+</Jumbotron>  
+</>
+    )
 }
 
 export default Portfolio;
