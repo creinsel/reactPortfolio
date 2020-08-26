@@ -1,7 +1,7 @@
 import React from "react";
-import Nav from 'react-bootstrap/Nav';
 
-const Navv = () => {
+
+const Nav = () => {
     return (
         <>
          <Nav
@@ -28,4 +28,4 @@ const Navv = () => {
     );
   };
   
-  export default Navv;
+  export default Nav;
