@@ -27,31 +27,49 @@
         "repo": "https://github.com/creinsel/burger"
     },
     {
-        "id": 1,
-        "name": "Netflix and Chill",
+        "id": 4,
+        "name": "Friend Finder",
         "image": "signIn.gif",
-        "description": "Thrill",
-        "technologies": "124",
-        "deployed": "google.com",
-        "repo": "github"
+        "description": "A compatibility-based FriendFinder application. This full-stack site takes in results from users' surveys, then compares their answers with those from other users. Upon submission of the survey, the app displays the name and picture of the user with the best overall match.",
+        "technologies": "Node, Javascript, Express, Bootstrap",
+        "deployed": "https://hidden-lowlands-14815.herokuapp.com/",
+        "repo": "https://github.com/creinsel/friend-finder"
     },
     {
-        "id": 1,
-        "name": "Netflix and Chill",
+        "id": 5,
+        "name": "Giftastic Cartoons",
         "image": "signIn.gif",
-        "description": "Thrill",
-        "technologies": "124",
-        "deployed": "google.com",
-        "repo": "github"
+        "description": "Click on a cartoon button to load related gif images. Use input field to add your own food related button. 10 gifs load at a time. When you click on the gif image, it plays. If you click on it again, it stops playing.",
+        "technologies": "Bootstrap, Javascript, JQuery, AJAX, GIPHY API",
+        "deployed": "https://creinsel.github.io/gifTastic/",
+        "repo": "https://github.com/creinsel/gifTastic"
     },
     {
-        "id": 1,
-        "name": "Netflix and Chill",
+        "id": 6,
+        "name": "Tatt-It",
         "image": "signIn.gif",
-        "description": "Thrill",
-        "technologies": "124",
-        "deployed": "google.com",
-        "repo": "github"
+        "description": "Tatt-It is an application designed to allow users to search for and add different tattoo artists based on tattooing style, price range and gender.",
+        "technologies": "Materialize, MySql, Sequelize",
+        "deployed": "https://young-lake-73302.herokuapp.com/",
+        "repo": "https://github.com/jontruong/Project2"
+    },
+    {
+        "id": 7,
+        "name": "Train Scheduler",
+        "image": "signIn.gif",
+        "description": "A train schedule application that incorporates Firebase to host arrival and departure data. The app retrieves and manipulates this information with Moment.js. The website provides up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.",
+        "technologies": "Bootstrap, Javascript, JQuery, Moment.js, Firebase",
+        "deployed": "https://creinsel.github.io/train-scheduler/",
+        "repo": "https://github.com/creinsel/train-scheduler"
+    },
+    {
+        "id": 8,
+        "name": "Trivia Game",
+        "image": "signIn.gif",
+        "description": "An iteractive game for web browswers. A Hawaii themed trivia game using JavaScript for the logic and jQuery to manipulate HTML",
+        "technologies": "Bootstrap, Javascript, JQuery",
+        "deployed": "https://creinsel.github.io/TriviaGame/",
+        "repo": "https://github.com/creinsel/TriviaGame"
     }
  
 ]
