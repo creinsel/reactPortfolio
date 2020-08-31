@@ -5,7 +5,7 @@
         "image": "signIn.gif",
         "description": "Is bored how you feel? Looking for a thrill? Well call up a friend, to NETFLIX AND CHILL! This is an application designed help users recieve reccomendations for a show/movie based on the mood the user wants to generate. Users over 21 also have the option to recieve reccomendations for alcoholic drinks based on the type alcohol desired, however if the user is not 21, there are still fun drink options users have available to them.",
         "technologies": "Materialize, Sweet Alert, Javascript",
-        "deployed": "https://github.com/frdclav/project-1",
+        "deployed": "https://frdc.info/project-1/",
         "repo": "https://github.com/frdclav/project-1"
     },
     {

@@ -4,11 +4,13 @@ import ProjCard from '../ProjCard';
 import projects from '../../projects.json';
 
 
-const Portfolio = (props) => {
+
+const Portfolio = () => {
     return (
 <div>
 <Jumbotron>
-  {this.projects.map(project => (
+  <h1>Projects</h1>
+  {projects.map(project => (
     <ProjCard
     key={project.id}
     name={project.name}

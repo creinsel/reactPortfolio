@@ -7,27 +7,32 @@ import Button from 'react-bootstrap/Button';
 const ProjCard = (props) => {
     return (
 <div>
-  <h1>Projects</h1>
 <Card>
   <Card.Header>
     <Nav variant="tabs" defaultActiveKey="#first">
       <Nav.Item>
-        <Nav.Link href="#first">Active</Nav.Link>
+        <Nav.Link href="#first">About</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#link">Link</Nav.Link>
+        <Nav.Link href="#link">Technologies</Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link href="#disabled" disabled>
-          Disabled
+          Github Repo
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link href="#disabled" disabled>
+          Deployed
         </Nav.Link>
       </Nav.Item>
     </Nav>
   </Card.Header>
   <Card.Body>
-    <Card.Title>Special title treatment</Card.Title>
+    <Card.Title>{props.name}</Card.Title>
+    <Card.Img variant="middle" src="{props.image}" />
     <Card.Text>
-      With supporting text below as a natural lead-in to additional content.
+      {props.description}
     </Card.Text>
     <Button variant="primary">Go somewhere</Button>
   </Card.Body>
