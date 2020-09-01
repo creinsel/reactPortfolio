@@ -34,20 +34,23 @@ const ProjCard = (props) => {
       </Nav.Item>
     </Nav>
   </Card.Header>
-  <Card.Body className= "about">
+  <Card.Body>
     <Card.Title>{props.name}</Card.Title>
     <Card.Img variant="middle" src="{props.image}" />
     <Card.Text>
       {props.description}
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-
-<Card.Body className="technologies">
-    <Card.Title>{props.name}</Card.Title>
     <Card.Text>
-      <h3>Technologies used for this application:</h3>
+      <h5>Technologies used for this application:</h5>
       {props.technologies}
+    </Card.Text>
+    <Card.Text>
+      <h5>Github Repo:</h5>
+      {props.repo}
+    </Card.Text>
+    <Card.Text>
+      <h5>Deployed Site:</h5>
+      {props.deployed}
     </Card.Text>
     <Button variant="primary">Go somewhere</Button>
   </Card.Body>
