@@ -47,13 +47,14 @@ const ProjCard = (props) => {
     </Card.Text>
     <Card.Text>
       <h5>Github Repo:</h5>
-      {props.repo}
+      
+      <Button variant="primary" href ={props.repo}>See Github Repo!</Button> 
     </Card.Text>
     <Card.Text>
       <h5>Deployed Site:</h5>
-      {props.deployed}
+      <Button variant="primary" href = {props.deployed}>See Deployed App!</Button> 
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
+    
   </Card.Body>
 </Card>  
 </div>
