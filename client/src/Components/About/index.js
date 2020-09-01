@@ -1,11 +1,13 @@
 import React from "react";
 import {Jumbotron} from 'react-bootstrap';
+import './style.css';
+
 
 const About = () => {
 
     return (
         <>
-       <Jumbotron>
+       <Jumbotron className="container top">
   <h1>About Section</h1>
   
   <p>

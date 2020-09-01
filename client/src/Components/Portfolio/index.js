@@ -8,7 +8,7 @@ import projects from '../../projects.json';
 const Portfolio = () => {
     return (
 <div>
-<Jumbotron>
+<Jumbotron className ="container">
   <h1>Projects</h1>
   {projects.map(project => (
     <ProjCard
