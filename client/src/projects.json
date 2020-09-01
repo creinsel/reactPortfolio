@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Netflix and Chill",
-        "image": "/assets/images/signIn.gif",
+        "image": "assets/images/signIn.gif",
         "description": "Is bored how you feel? Looking for a thrill? Well call up a friend, to NETFLIX AND CHILL! This is an application designed help users recieve reccomendations for a show/movie based on the mood the user wants to generate. Users over 21 also have the option to recieve reccomendations for alcoholic drinks based on the type alcohol desired, however if the user is not 21, there are still fun drink options users have available to them.",
         "technologies": "Materialize, Sweet Alert, Javascript",
         "deployed": "https://frdc.info/project-1/",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "KyndCo",
-        "image": "signIn.gif",
+        "image": "assets/images/signIn.gif",
         "description": "At Kynd Co, we believe no good deed should go unrewarded. Our app encourages users to do acts of kyndness by providing them a list of kynd acts they can do. These acts range from being kynd to yourself, others and the world.",
         "technologies": "Mongo/Mongoose, Express, React, NodeJs, Bootstrap, Canvas.js, Moment.js, BCrypt",
         "deployed": "https://serene-reaches-71514.herokuapp.com/",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "name": "Burger",
-        "image": "signIn.gif",
+        "image": "assets/images/burger.gif",
         "description": "A burger logger with MySql, PostgreSQL, Node, Express, Handlebars and a homemade ORM. This app follows the MVC design pattern; using Node and MySql/PostgreSQL to query and route data in the app, and Handlebars to generate app HTML. Ran locally with MySql, Deployed with PostgreSql",
         "technologies": "MySql, PostgreSQL, Node, Express, Handlebars",
         "deployed": "https://secret-plains-47747.herokuapp.com/",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "name": "Friend Finder",
-        "image": "signIn.gif",
+        "image": "assets/images/f-f.gif",
         "description": "A compatibility-based FriendFinder application. This full-stack site takes in results from users' surveys, then compares their answers with those from other users. Upon submission of the survey, the app displays the name and picture of the user with the best overall match.",
         "technologies": "Node, Javascript, Express, Bootstrap",
         "deployed": "https://hidden-lowlands-14815.herokuapp.com/",
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "name": "Giftastic Cartoons",
-        "image": "signIn.gif",
+        "image": "assets/images/giftastic.gif",
         "description": "Click on a cartoon button to load related gif images. Use input field to add your own food related button. 10 gifs load at a time. When you click on the gif image, it plays. If you click on it again, it stops playing.",
         "technologies": "Bootstrap, Javascript, JQuery, AJAX, GIPHY API",
         "deployed": "https://creinsel.github.io/gifTastic/",
@@ -56,7 +56,7 @@
     {
         "id": 7,
         "name": "Train Scheduler",
-        "image": "signIn.gif",
+        "image": "assets/images/train.gif",
         "description": "A train schedule application that incorporates Firebase to host arrival and departure data. The app retrieves and manipulates this information with Moment.js. The website provides up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.",
         "technologies": "Bootstrap, Javascript, JQuery, Moment.js, Firebase",
         "deployed": "https://creinsel.github.io/train-scheduler/",
@@ -65,7 +65,7 @@
     {
         "id": 8,
         "name": "Trivia Game",
-        "image": "signIn.gif",
+        "image": "assets/images/trivia.gif",
         "description": "An iteractive game for web browswers. A Hawaii themed trivia game using JavaScript for the logic and jQuery to manipulate HTML",
         "technologies": "Bootstrap, Javascript, JQuery",
         "deployed": "https://creinsel.github.io/TriviaGame/",
