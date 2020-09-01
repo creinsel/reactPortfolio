@@ -1,28 +1,34 @@
-import React from "react";
+import React, {useState} from "react";
 import Card from 'react-bootstrap/Card';
 import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button';
 
 
 const ProjCard = (props) => {
+
+  const [show, setShow] = useState(false);
+
+  const showTech = () => setShow(true);
+  const showAbt = () => setShow(false);
+  
     return (
 <div>
 <Card>
   <Card.Header>
-    <Nav variant="tabs" defaultActiveKey="#first">
+    <Nav variant="tabs" defaultActiveKey="/about">
       <Nav.Item>
-        <Nav.Link href="#first">About</Nav.Link>
+        <Nav.Link href="/about" onClick = {showAbt}>About</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#link">Technologies</Nav.Link>
+        <Nav.Link href="/technologies" onClick = {showTech}>Technologies</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="{props.repo}">
+        <Nav.Link href="/repo">
           Github Repo
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="{props.deployed}">
+        <Nav.Link href="/deployedSite">
           Deployed
         </Nav.Link>
       </Nav.Item>

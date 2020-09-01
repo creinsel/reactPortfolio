@@ -7,9 +7,10 @@ const About = () => {
         <>
        <Jumbotron>
   <h1>About Section</h1>
+  
   <p>
-    This is a simple hero unit, a simple jumbotron-style component for calling
-    extra attention to featured content or information.
+  Full Stack Developer with extensive experience in the education/public service industry.  Recently earned a certificate in Full Stack Development through the UC Berkeley Extension program. Familiar with technologies such as Javascript, HTML, Node.js, React, Express, Handlebars, etc. With a background as a former educator, extremely efficient at meeting deadlines, thinking critically, and using creativity to complete work.  Love learning from others in a collaborative environment and am passionate about creating web applications that are both functional and aesthetic. 
+.
   </p>
   <p>
     LUKE
