@@ -2,6 +2,9 @@
     margin-top: 100px;
 }
 
-img{
+.imgAbt{
     border-radius: 50%;
+    height: 190px;
+    width: 190px;
+
 }
