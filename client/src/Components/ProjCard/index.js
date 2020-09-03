@@ -11,7 +11,8 @@ const ProjCard = (props) => {
 
   const showMe = () => setShow(true);
   
-  {showMe ? apply class with display none : setShow(false)}
+  {showMe ? remove class with display none : setShow(false)};
+
     return (
 <div>
 <Card>
