@@ -7,3 +7,7 @@ img{
     height: 22rem;
     width: 40rem;
 }
+
+Card.Text{
+    display:none;
+}
