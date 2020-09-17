@@ -12,7 +12,38 @@ const ProjCard = (props) => {
   const [depl, setDepl] = useState(false);
   const [repo, setRepo] = useState(false);
 
-  const showMe = () => setShow(true);
+  const showDesc = () => {
+
+    setTech(false);
+    setDesc(true);
+    setDepl(false);
+    setRepo(false);
+
+  };
+  const showTech = () => {
+
+    setTech(true);
+    setDesc(false);
+    setDepl(false);
+    setRepo(false);
+
+  };
+  const showDepl = () => {
+
+    setTech(false);
+    setDesc(false);
+    setDepl(true);
+    setRepo(false);
+
+  };
+  const showRepo = () => {
+
+    setTech(false);
+    setDesc(false);
+    setDepl(false);
+    setRepo(true);
+
+  };
   
   {showMe ? remove class with display none : setShow(false)};
 
