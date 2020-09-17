@@ -7,7 +7,10 @@ import './style.css';
 
 const ProjCard = (props) => {
 
-  const [show, setShow] = useState(false);
+  const [tech, setTech] = useState(false);
+  const [desc, setDesc] = useState(true);
+  const [depl, setDepl] = useState(false);
+  const [repo, setRepo] = useState(false);
 
   const showMe = () => setShow(true);
   
