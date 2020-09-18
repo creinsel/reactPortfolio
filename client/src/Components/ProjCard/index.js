@@ -45,7 +45,6 @@ const ProjCard = (props) => {
 
   };
   
-  {showMe ? remove class with display none : setShow(false)};
 
     return (
 <div>
@@ -53,18 +52,18 @@ const ProjCard = (props) => {
   <Card.Header>
     <Nav variant="tabs" defaultActiveKey="/about">
       <Nav.Item>
-        <Nav.Link href="/about" onClick = {showMe}>About</Nav.Link>
+        <Nav.Link href="/about" onClick = {showDesc}>About</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/technologies" onClick = {showMe}>Technologies</Nav.Link>
+        <Nav.Link href="/technologies" onClick = {showTech}>Technologies</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/repo">
+        <Nav.Link href="/repo" onClick = {showRepo}>
           Github Repo
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/deployedSite">
+        <Nav.Link href="/deployedSite" onClick = {showDepl}>
           Deployed
         </Nav.Link>
       </Nav.Item>
@@ -74,9 +73,12 @@ const ProjCard = (props) => {
     <Card.Title>{props.name}</Card.Title>
     <Card.Img variant="middle" src={props.image} alt={props.name} />
     <Card.Text >
+      {desc?
+      
       <div>
       {props.description}
       </div>
+      : class ={hideMe}}
       <div>
       <h5>Technologies used for this application:</h5>
       {props.technologies}

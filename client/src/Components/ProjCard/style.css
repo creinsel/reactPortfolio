@@ -8,6 +8,6 @@ img{
     width: 40rem;
 }
 
-Card.Text{
-    display:none;
+.hideMe{
+    display: none;
 }
