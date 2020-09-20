@@ -52,18 +52,18 @@ const ProjCard = (props) => {
   <Card.Header>
     <Nav variant="tabs" defaultActiveKey="/about">
       <Nav.Item>
-        <Nav.Link href="/about" onClick = {showDesc}>About</Nav.Link>
+        <Nav.Link onClick = {showDesc}>About</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/technologies" onClick = {showTech}>Technologies</Nav.Link>
+        <Nav.Link onClick = {showTech}>Technologies</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/repo" onClick = {showRepo}>
+        <Nav.Link onClick = {showRepo}>
           Github Repo
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/deployedSite" onClick = {showDepl}>
+        <Nav.Link onClick = {showDepl}>
           Deployed
         </Nav.Link>
       </Nav.Item>
@@ -78,20 +78,31 @@ const ProjCard = (props) => {
       <div>
       {props.description}
       </div>
-      : class ={hideMe}}
+      : <div></div>}
+    
+      {tech?
       <div>
       <h5>Technologies used for this application:</h5>
       {props.technologies}
       </div>
+      : <div></div>}
+
+      {repo?
+      
       <div>
       <h5>Github Repo:</h5>
       
       <Button variant="primary" href ={props.repo}>See Github Repo!</Button> 
       </div>
+      : <div></div>}
+
+      {depl?
+     
       <div>
       <h5>Deployed App:</h5>
       <Button variant="primary" href = {props.deployed}>See Deployed App!</Button> 
       </div>
+      :<div></div>}
     </Card.Text>
     
   </Card.Body>
