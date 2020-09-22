@@ -13,7 +13,7 @@ const Nav = () => {
         </div>
      
     
-      <div className="collapse navbar-collapse nav-menu mr-auto">
+      <div className="collapse navbar-collapse nav-menu mr-auto justify-content-end">
         <ul className="navbar-nav">
           <li className="nav-item active">
             <a className="nav-link" href="/">About <span className="sr-only">(current)</span></a>
