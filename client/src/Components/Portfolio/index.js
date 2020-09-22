@@ -9,7 +9,7 @@ import './style.css';
 const Portfolio = () => {
     return (
 <div>
-<Jumbotron className ="container">
+<Jumbotron className ="container flex-row">
   <h1>Projects</h1>
   {projects.map(project => (
     <ProjCard
