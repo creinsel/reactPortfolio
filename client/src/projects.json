@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Netflix and Chill",
-        "image": "assets/images/signIn.gif",
+        "image": "assets/images/nac.gif",
         "description": "Is bored how you feel? Looking for a thrill? Well call up a friend, to NETFLIX AND CHILL! This is an application designed help users recieve reccomendations for a show/movie based on the mood the user wants to generate. Users over 21 also have the option to recieve reccomendations for alcoholic drinks based on the type alcohol desired, however if the user is not 21, there are still fun drink options users have available to them.",
         "technologies": "Materialize, Sweet Alert, Javascript",
         "deployed": "https://frdc.info/project-1/",
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "name": "Tatt-It",
-        "image": "signIn.gif",
+        "image": "assets/images/tatt-it.gif",
         "description": "Tatt-It is an application designed to allow users to search for and add different tattoo artists based on tattooing style, price range and gender.",
         "technologies": "Materialize, MySql, Sequelize",
         "deployed": "https://young-lake-73302.herokuapp.com/",
