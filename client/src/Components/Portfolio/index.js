@@ -12,7 +12,7 @@ const Portfolio = () => {
 <Jumbotron className ="container">
   <h1>Projects</h1>
   {projects.map(project => (
-    <ProjCard
+    <ProjCard 
     key={project.id}
     name={project.name}
     image={project.image}
