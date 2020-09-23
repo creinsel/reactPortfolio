@@ -1,7 +1,36 @@
 import React from "react";
+import Contact from "../Contact";
+import About from "../About";
+import Portfolio from "../Portfolio";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
 const Nav = () => {
+
+  const goAbt = () =>(
+     <Router>
+  <Switch>
+    <Route exact path="/" component={About} />
+  </Switch>
+</Router>
+  )
+
+  const goPort = () =>(
+    <Router>
+ <Switch>
+   <Route exact path="/portfolio" component={Portfolio} />
+ </Switch>
+</Router>
+ )
+
+ const goCont = () =>(
+  <Router>
+<Switch>
+ <Route exact path="/contact" component={Contact} />
+</Switch>
+</Router>
+ )
+ 
     return (
         <>
         
@@ -9,20 +38,20 @@ const Nav = () => {
       <div className="logo">
           
 
-          <h3>Cassondra <br></br> Reinsel</h3>
+          <h3 className="gfont">Cassondra <br></br> Reinsel</h3>
         </div>
      
     
       <div className="collapse navbar-collapse nav-menu mr-auto justify-content-end">
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link">About <span className="sr-only">(current)</span></a>
+            <a className="nav-link" onClick={goAbt}>About <span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" >Projects</a>
+            <a className="nav-link" onClick={goPort} >Portfolio</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" >Contact</a>
+            <a className="nav-link" onClick={goCont}>Contact</a>
           </li>
         </ul>
         

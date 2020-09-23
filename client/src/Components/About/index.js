@@ -8,7 +8,7 @@ const About = () => {
 
     return (
         <>
-       <Jumbotron className="container top">
+       <Jumbotron className="container top blueCom">
          <Row className="m-1">
          <h1 className="m-1">About</h1>
          </Row>

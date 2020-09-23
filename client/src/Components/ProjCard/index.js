@@ -48,7 +48,7 @@ const ProjCard = (props) => {
 
     return (
 <div>
-<Card>
+<Card className="border-primary">
   <Card.Header>
     <Nav variant="tabs" defaultActiveKey="/about">
       <Nav.Item>
