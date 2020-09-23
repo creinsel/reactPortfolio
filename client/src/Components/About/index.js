@@ -10,7 +10,9 @@ const About = () => {
         <>
        <Jumbotron className="container top blueCom">
          <Row className="m-1">
-         <h1 className="m-1">About</h1>
+           <Col size = "md-12">
+         <h1 className="m-1 gfont text-center">About</h1>
+         </Col>
          </Row>
   
 <Row className="m-1">

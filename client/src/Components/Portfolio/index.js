@@ -10,7 +10,7 @@ const Portfolio = () => {
     return (
 <div>
 <Jumbotron className ="container">
-  <h1>Projects</h1>
+  <h1 className="gfont text-center">Portfolio</h1>
   <div className="projects">
   {projects.map(project => (
     <ProjCard 
