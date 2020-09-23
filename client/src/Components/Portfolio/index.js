@@ -9,7 +9,8 @@ import './style.css';
 const Portfolio = () => {
     return (
 <div>
-<Jumbotron className ="container">
+<Jumbotron className="space">
+  <div className= "container">
   <h1 className="gfont text-center">Portfolio</h1>
   <div className="projects">
   {projects.map(project => (
@@ -23,6 +24,7 @@ const Portfolio = () => {
     repo={project.repo}
     />
   ))}
+  </div>
   </div>
 </Jumbotron>  
 </div>

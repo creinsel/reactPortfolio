@@ -1,3 +1,9 @@
 .gfont{
     font-family: 'Knewave', cursive;
 }
+
+.navSt{
+    background-color:rgb(25,25,112);
+    color: white; 
+    margin-bottom:3px;
+}

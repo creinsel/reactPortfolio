@@ -9,7 +9,7 @@ const Contact = () => {
 
     return (
 <>
-<Jumbotron className="container">
+<Jumbotron className= "space">
   <h1 className="gfont text-center">Contact</h1>
  
  <div className="contacts">

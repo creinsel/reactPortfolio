@@ -8,7 +8,8 @@ const About = () => {
 
     return (
         <>
-       <Jumbotron className="container top blueCom">
+       <Jumbotron className="jHeight space backAt">
+         <div className="container">
          <Row className="m-1">
            <Col size = "md-12">
          <h1 className="m-1 gfont text-center">About</h1>
@@ -26,6 +27,7 @@ const About = () => {
   </p>
   </Col>
   </Row>
+  </div>
 </Jumbotron>  
        
      </>

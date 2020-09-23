@@ -35,7 +35,7 @@ const Nav = () => {
     return (
         <>
         
-      <nav className="navbar navbar-expand-lg navbar-light bg-light m-1">
+      <nav className="navbar sticky-top navbar-expand-lg navbar-light navSt">
       <div className="logo">
           
 
@@ -46,13 +46,13 @@ const Nav = () => {
       <div className="collapse navbar-collapse nav-menu mr-auto justify-content-end">
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link" onClick={goAbt}><p>About</p> <span className="sr-only">(current)</span></a>
+            <a className="nav-link" onClick={goAbt}><p className="text-white">About</p> <span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" onClick={goPort} ><p>Portfolio</p></a>
+            <a className="nav-link" onClick={goPort} ><p className="text-white">Portfolio</p></a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" onClick={goCont}><p>Contact</p></a>
+            <a className="nav-link" onClick={goCont}><p className="text-white">Contact</p></a>
           </li>
         </ul>
         
