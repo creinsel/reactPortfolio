@@ -46,13 +46,13 @@ const Nav = () => {
       <div className="collapse navbar-collapse nav-menu mr-auto justify-content-end">
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link" onClick={goAbt}>About <span className="sr-only">(current)</span></a>
+            <a className="nav-link" onClick={goAbt}><p>About</p> <span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" onClick={goPort} >Portfolio</a>
+            <a className="nav-link" onClick={goPort} ><p>Portfolio</p></a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" onClick={goCont}>Contact</a>
+            <a className="nav-link" onClick={goCont}><p>Contact</p></a>
           </li>
         </ul>
         
