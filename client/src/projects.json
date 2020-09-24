@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "KyndCo",
-        "image": "assets/images/signIn.gif",
+        "image": "assets/images/kyndCo.gif",
         "description": "At Kynd Co, we believe no good deed should go unrewarded. Our app encourages users to do acts of kyndness by providing them a list of kynd acts they can do. These acts range from being kynd to yourself, others and the world.",
         "technologies": "Mongo/Mongoose, Express, React, NodeJs, Bootstrap, Canvas.js, Moment.js, BCrypt",
         "deployed": "https://serene-reaches-71514.herokuapp.com/",
