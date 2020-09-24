@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Email from '../Email'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import './style.css';
@@ -9,7 +9,7 @@ const Contact = () => {
 
     return (
 <>
-<Jumbotron className= "space">
+<Jumbotron className= "space" id="section3">
   <h1 className="gfont text-center">Contact</h1>
  
  <div className="contacts">

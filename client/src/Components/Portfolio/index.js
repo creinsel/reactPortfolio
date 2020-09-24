@@ -9,7 +9,7 @@ import './style.css';
 const Portfolio = () => {
     return (
 <div>
-<Jumbotron className="space bg-white">
+<Jumbotron className="space bg-white" id="section2">
   <div className= "container">
   <h1 className="gfont text-center blueTxt">Portfolio</h1>
   <div className="projects">

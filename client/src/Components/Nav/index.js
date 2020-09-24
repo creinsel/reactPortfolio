@@ -1,36 +1,12 @@
 import React from "react";
-import Contact from "../Contact";
-import About from "../About";
-import Portfolio from "../Portfolio";
+import {Link} from 'react-scroll'
 import './style.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 
 
 const Nav = () => {
 
-  const goAbt = () =>(
-     <Router>
-  <Switch>
-    <Route exact path="/" component={About} />
-  </Switch>
-</Router>
-  )
-
-  const goPort = () =>(
-    <Router>
- <Switch>
-   <Route exact path="/portfolio" component={Portfolio} />
- </Switch>
-</Router>
- )
-
- const goCont = () =>(
-  <Router>
-<Switch>
- <Route exact path="/contact" component={Contact} />
-</Switch>
-</Router>
- )
+ 
  
     return (
         <>
@@ -46,13 +22,13 @@ const Nav = () => {
       <div className="collapse navbar-collapse nav-menu mr-auto justify-content-end">
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link" onClick={goAbt}><p className="text-white">About</p> <span className="sr-only">(current)</span></a>
+            <Link className="nav-link" to="section1" smooth duration={1500}><p className="text-white">About</p> <span className="sr-only">(current)</span></Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" onClick={goPort} ><p className="text-white">Portfolio</p></a>
+            <Link className="nav-link" to="section2" smooth duration={1000}><p className="text-white">Portfolio</p></Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" onClick={goCont}><p className="text-white">Contact</p></a>
+            <Link className="nav-link" to="section3" smooth duration={1000}><p className="text-white">Contact</p></Link>
           </li>
         </ul>
         
