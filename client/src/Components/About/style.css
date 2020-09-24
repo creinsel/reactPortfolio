@@ -2,17 +2,26 @@
 
 .imgAbt{
     border-radius: 50%;
-    height: 190px;
-    width: 190px;
+    height: 220px;
+    width: 220px;
+    margin-top:150px;
 
 }
 
 .jHeight{
-    height:600px;
+    height:700px;
 }
 .backAt{
-    background-color:white;
+    background-image: url("/assets/images/water.jpg");
+    color: white; 
     
 }
+
+.animTxt{
+    margin-top:220px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(3, 3, 43);
+}
+    
 
 

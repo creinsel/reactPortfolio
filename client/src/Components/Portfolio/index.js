@@ -9,9 +9,9 @@ import './style.css';
 const Portfolio = () => {
     return (
 <div>
-<Jumbotron className="space">
+<Jumbotron className="space bg-white">
   <div className= "container">
-  <h1 className="gfont text-center">Portfolio</h1>
+  <h1 className="gfont text-center blueTxt">Portfolio</h1>
   <div className="projects">
   {projects.map(project => (
     <ProjCard 

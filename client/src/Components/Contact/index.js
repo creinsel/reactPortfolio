@@ -18,6 +18,8 @@ const Contact = () => {
   <a href="https://github.com/creinsel" target="_blank"><img src = "assets/images/git.png" alt= "git" className="icons"/></a>
   <a href= "https://www.linkedin.com/in/cassondra-reinsel-1a195840/"><img src = "assets/images/linked2.png" alt= "linkedin" className="icons"/></a>
   </div>
+
+  <p className= "text-center blueTxt">Cassondra Reinsel 2020</p>
 </Jumbotron>  
 </>
     )

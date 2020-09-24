@@ -4,7 +4,10 @@
 }
 
 .space{
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
+.blueTxt{
+    color: rgb(3, 3, 43);
+}
