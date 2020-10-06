@@ -3,6 +3,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import ProjCard from '../ProjCard';
 import projects from '../../projects.json';
 import './style.css';
+import '../ProjCard/style.css'
 
 
 
