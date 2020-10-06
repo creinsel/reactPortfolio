@@ -22,6 +22,10 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(3, 3, 43);
 }
+
+p{
+    font-family: 'Kanit', sans-serif;
+}
     
 
 
