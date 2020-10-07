@@ -50,7 +50,7 @@ const ProjCard = (props) => {
 <div>
 <Card className="border-primary cardProj">
   <Card.Header>
-    <Nav variant="tabs" defaultActiveKey="/about">
+    <Nav variant="tabs" defaultActiveKey={showDesc}>
       <Nav.Item>
         <Nav.Link onClick = {showDesc}>About</Nav.Link>
       </Nav.Item>
