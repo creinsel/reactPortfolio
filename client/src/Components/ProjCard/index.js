@@ -1,8 +1,9 @@
 import React, {useState} from "react";
+import './style.css';
 import Card from 'react-bootstrap/Card';
 import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button';
-import './style.css';
+
 
 
 const ProjCard = (props) => {
