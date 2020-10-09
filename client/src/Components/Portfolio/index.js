@@ -12,9 +12,8 @@ const Portfolio = () => {
 <div>
 <Jumbotron className="space bg-white" id="section2">
 <h1 className="gfont text-center blueTxt">Portfolio</h1>
-  <div className= "projectCon container ">
-  
-  
+  <div className= "container ">
+  <div className= "align-items-center">
   {projects.map(project => (
     <ProjCard 
     key={project.id}
@@ -25,7 +24,9 @@ const Portfolio = () => {
     deployed={project.deployed}
     repo={project.repo}
     />
+    
   ))}
+  </div>
   </div>
  
 </Jumbotron>  
