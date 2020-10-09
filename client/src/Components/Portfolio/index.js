@@ -7,6 +7,7 @@ import projects from '../../projects.json';
 
 
 const Portfolio = () => {
+  
     return (
 <div>
 <Jumbotron className="space bg-white" id="section2">
