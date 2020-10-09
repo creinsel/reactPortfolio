@@ -72,7 +72,7 @@ const ProjCard = (props) => {
   </Card.Header>
   <Card.Body>
     <Card.Title>{props.name}</Card.Title>
-    <Card.Img variant="middle" src={props.image} alt={props.name} />
+    <Card.Img variant="middle" class="align-middle" src={props.image} alt={props.name} />
     <Card.Text >
       {desc?
       
