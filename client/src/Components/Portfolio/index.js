@@ -12,7 +12,7 @@ const Portfolio = () => {
 <div>
 <Jumbotron className="space bg-white" id="section2">
 <h1 className="gfont text-center blueTxt">Portfolio</h1>
-  <div className= "container projectCon">
+  <div className= "projectCon container ">
   
   
   {projects.map(project => (
